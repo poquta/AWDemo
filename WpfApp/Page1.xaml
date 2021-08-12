@@ -8,6 +8,9 @@
         Title="Page1" Height="450" Width="800">
 	<StackPanel Width="200" Background="AliceBlue">
 		<TextBlock Text="Page #1"></TextBlock>
+		<TextBlock Text="Content..."></TextBlock>
+		<TextBlock Text="Content...."></TextBlock>
+		<TextBlock Text="Content....."></TextBlock>
 		<Button x:Name="btnNavigateMain" Click="btnNavigateMain_Click">Back to main</Button>
 	</StackPanel>
 </Window>
