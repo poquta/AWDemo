@@ -10,26 +10,27 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page1 : Window
     {
-        public MainWindow()
+        public Page1(Window mainPage)
         {
             InitializeComponent();
+            MainPage = mainPage;
         }
 
-        private void btnNavigate1_Click(object sender, RoutedEventArgs e)
+        private void btnNavigateMain_Click(object sender, RoutedEventArgs e)
         {
-            this.Hide();
-            Page1 p1 = new Page1(this);
-            p1.Show();
+            MainPage.Show();
+            this.Close();
         }
+
+        private Window MainPage { get; set; }
     }
 }
