@@ -11,6 +11,7 @@
 		<TextBlock Text="Content..."></TextBlock>
 		<TextBlock Text="Content...."></TextBlock>
 		<TextBlock Text="Content....."></TextBlock>
+		<TextBlock Text="Content......"></TextBlock>
 		<Button x:Name="btnNavigateMain" Click="btnNavigateMain_Click">Back to main</Button>
 	</StackPanel>
 </Window>
