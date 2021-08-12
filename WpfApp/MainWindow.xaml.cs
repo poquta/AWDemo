@@ -29,5 +29,12 @@ namespace WpfApp
         {
 
         }
+
+        private void btnNavigate2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Page2 p2 = new Page2(this);
+            p2.Show();
+        }
     }
 }

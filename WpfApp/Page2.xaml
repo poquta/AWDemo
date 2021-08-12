@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
         Title="Page2" Height="450" Width="800">
-	<StackPanel Width="200" Background="AliceBlue">
+	<StackPanel Width="200" Background="LightPink">
 		<TextBlock Text="Page #2"></TextBlock>
 		<Button x:Name="btnNavigateMain" Click="btnNavigateMain_Click">Back to main</Button>
 	</StackPanel>
