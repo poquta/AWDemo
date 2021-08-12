@@ -1,14 +1,13 @@
-﻿<Window x:Class="WpfApp.MainWindow"
+﻿<Window x:Class="WpfApp.Page2"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <StackPanel Width="200">
-		<TextBlock Text="Main page"></TextBlock>
-		<Button x:Name="btnNavigate1" Click="btnNavigate1_Click">Page 1</Button>
-		<Button x:Name="btnNavigate2" Click="btnNavigate2_Click">Page 2</Button>
+        Title="Page2" Height="450" Width="800">
+	<StackPanel Width="200" Background="AliceBlue">
+		<TextBlock Text="Page #2"></TextBlock>
+		<Button x:Name="btnNavigateMain" Click="btnNavigateMain_Click">Back to main</Button>
 	</StackPanel>
 </Window>
